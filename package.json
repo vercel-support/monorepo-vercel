@@ -1,0 +1,13 @@
+{
+  "name": "monorepo-vercel",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "3.22.1"
+  },
+  "devDependencies": {
+    "vercel": "20.1.0"
+  }
+}
